@@ -1,11 +1,9 @@
-title: Your awesome title
+title: Unity Game Dev
 author:
-  name: GitHub User
+  name: Silver-Hornet
   email: your-email@domain.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Just a small, humble website where I blog about my Unity game dev journey. Started my daily journey on June 29, 2020. Let's see where this goes...
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -16,8 +14,8 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
+    github:  silver-hornet
+    # twitter: jekyllrb
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
