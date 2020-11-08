@@ -1,7 +1,6 @@
 title: Unity Game Dev
 author:
-  name: Silver-Hornet
-  email: your-email@domain.com
+  # name: Silver-Hornet
 description: > # this means to ignore newlines until "show_excerpts:"
   Just a small, humble website where I blog about my Unity game dev journey. Started my daily journey on June 29, 2020. Let's see where this goes...
 
@@ -54,5 +53,5 @@ minima:
 theme: minima
 
 plugins:
- - jekyll-feed
+ # - jekyll-feed
  - jekyll-seo-tag
