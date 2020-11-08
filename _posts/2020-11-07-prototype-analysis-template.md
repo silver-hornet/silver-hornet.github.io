@@ -1,6 +1,6 @@
 ---
 layout: post
-title: “Prototype Analysis Template”
+title: Prototype Analysis Template
 categories: prototypes
 author:
 - Silver-Hornet
