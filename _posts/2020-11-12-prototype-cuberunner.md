@@ -32,7 +32,7 @@ The game architecture consists of:
 
 The game loads the Menu scene first, which contains a Canvas  with welcome text and a Start button. The Canvas is a UI game object that is the parent object of other UI game objects within it (such as text and buttons). The Canvas is set to scale with screen size, which means that it will adjust to the user’s screen size, regardless of device.
 
-The Start button is hooked up to a script called Menu.cs, which contains a StartGame() method. This method determines the BuildIndex number of the current scene (Menu), then adds 1. In this case, the next BuildIndex number refers to Level 1. So when the Start button is clicked, the button calls StartGame(), which loads up Level 2.
+The Start button is hooked up to a script called Menu.cs, which contains a StartGame() method. This method determines the BuildIndex number of the current scene (Menu), then adds 1. In this case, the next BuildIndex number refers to Level 1. So when the Start button is clicked, the button calls StartGame(), which loads up Level 1.
 
 ### Level 1
 
