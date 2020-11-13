@@ -19,6 +19,8 @@ You can play the game in your browser here. https://play.unity.com/mg/other/cube
 
 And you can view my GitHub repo here. https://github.com/silver-hornet/brackeys-cube-runner
 
+![Test!](/assets/images/cuberunner.png “Philadelphia’s Magic Gardens”)
+
 [![Cuberunner Prototype](/assets/images/cuberunner.png “Cuberunner Prototype”)](https://play.unity.com/mg/other/cuberunner-from-brackey-s-how-to-make-a-video-game-tutorial-series)
 
 ## How It Works
