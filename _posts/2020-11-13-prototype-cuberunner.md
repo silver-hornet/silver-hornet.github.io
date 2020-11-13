@@ -15,7 +15,9 @@ Cuberunner is a game prototype I built while following along with Brackeys’ Yo
 - Avoid obstacles
 - Get to the finish line
 
-You can play the game in your browser here. And you can view my GitHub repo here.
+You can play the game in your browser here. https://play.unity.com/mg/other/cuberunner-from-brackey-s-how-to-make-a-video-game-tutorial-series
+
+And you can view my GitHub repo here. https://github.com/silver-hornet/brackeys-cube-runner
 
 [SCREENSHOT]
 
@@ -75,7 +77,45 @@ PlayerCollision.cs contains an OnCollisionEnter() method. Using an If statement,
 
 Score.cs contains an Update() method, which means it’s constantly updating every frame. This method checks the player’s current position on the Z-axis, which will be a float.  It then converts the float to a string, and then passes the string to the text component of the scoreText game object, which is a child object of the Canvas. This prints the score (our distance travelled) at the top of our game screen, and because it’s all happening in the Update() method, the score is dynamically updating every frame throughout our game session.
 
-####Canvas
+#### Canvas
+The Canvas game object contains 2 child game objects: Score, and LevelComplete.
+
+Score is a UI text box positioned and anchored to the top centre of the screen. Anchored means [insert stuff here]. By default, Score displays 0, the distance our player has travelled before the game begins. Once the game begins, the Score is dynamically updated every frame by getting the updated distance passed through from the previously mentioned Score.cs script attached to the Player.
+
+The LevelComplete child game object is a white image that contains the “LEVEL COMPLETE” text. This game object is inactive by default, and is only activated once our player reaches the finish line. This game object also contains an Animator component, which gives us the gentle and smooth fade in to a white screen before the “Level Complete” text fades in on top of that. The white colour of the LevelComplete image is animated through a few keyframes on a timeline. The “Level Complete” text is separately animated the same way.
+
+The Canvas is also hooked up to a script called LevelComplete.cs. LevelComplete.cs contains one method, LoadNextLevel(), which determines the BuildIndex number of the current scene (Menu), then adds 1. In this case, the next BuildIndex number refers to Level 2, so Level 2 will be loaded.
+
+
+#### EventSystem
+We won’t bother discussing the EventSystem much. It’s a game object that is automatically added by Unity when you add a Canvas game object. The EventSystem [insert description of what it does].
+
+#### GameManager
+GameManager is an empty game object that you can’t see. Its only purpose is to be hooked up to the GameManager.cs script.
+
+[Write something about manager classes]
+
+GameManager.cs contains 3 methods: CompleteLevel(), EndGame(), and Restart(). Once again, this is good naming as each method’s name tells us exactly what it does.
+
+CompleteLevel() calls the LevelComplete child object in the previously mentioned Canvas, and enables it. This causes the text, “Level Complete”, to appear on the screen.
+
+EndGame() checks to see if the game has ended (eg. our player has fallen off the ground or collided with an obstacle) and invokes the Restart() method after a slight delay.
+
+Restart() checks the name of the current scene, then reloads it.
+
+#### End
+End is another empty game object that you can’t see. It is positioned at the end of the level so that when our player passes through this invisible game object, it triggers a method in its attached EndTrigger.cs script. The method, called OnTriggerEnter, calls the CompleteLevel() in the GameManager, which enables the “Level Complete” text and loads the next level.
+
+#### Obstacles
+Level 1 contains 6 obstacle game objects. These are just primitive cubes that have been resized. They each contain a Box Collider, set to the size of the obstacle, and a RigidBody (which isn’t actually necessary). This allows our player to collide with the obstacle.
+
+
+### Level 2
+The architecture of Level 2 is identical to Level 1. The only difference is that the EndTrigger.cs script attached to the End game object will load the Credits scene once the player completes Level 2.
+
+### Credits
+The Credits scene is built in the same way the Menu scene was. The only difference is that the Quit button is hooked up to a script called Credits.ca, which contains a method called Quit(). This method quits the application. However, this only works if the game is a standalone application on Windows or Mac. If you’re playing it in the browser, the Quit() method will only stop the game.
+
 
 
 ## Download
