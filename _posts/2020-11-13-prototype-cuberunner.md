@@ -19,7 +19,7 @@ Play the game in your browser [here](https://play.unity.com/mg/other/cuberunner-
 
 View my GitHub repo [here](https://github.com/silver-hornet/brackeys-cube-runner).
 
-![test5][/assets/cuberunner.png]
+![test6][../assets/cuberunner.png]
 
 ## Planning
 Here’s a high-level breakdown of the main features of this game:
