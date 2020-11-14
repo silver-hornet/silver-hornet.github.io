@@ -21,6 +21,8 @@ View my GitHub repo [here](https://github.com/silver-hornet/brackeys-cube-runner
 
 ![Cuberunner]({{site.url}}/cuberunner.png)
 
+![Alternative image](/images/cuberunner.png)
+
 ## Planning
 Here’s a high-level breakdown of the main features of this game:
 
