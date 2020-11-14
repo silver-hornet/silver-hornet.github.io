@@ -46,7 +46,7 @@ The game architecture consists of:
 - 9 game objects
 - 9 scripts
 
-Here’s a diagram of how the scripts (classes) communicate with each other and game objects:
+Here’s a diagram of how the scripts (classes) communicate with each other and the main game objects:
 
 [DIAGRAM]
 
@@ -69,12 +69,13 @@ Level 1 contains 9 types of game objects:
 - End
 - Obstacles
 
-#### Game Object (Main Camera)
+#### Game Object: Main Camera
 By default, the main camera sits in a fixed position. Since our player will be moving forward, we will have to make the camera follow our player. This is why the Main Camera is hooked up to a script called CameraFollow. This is an example of good naming. The script name tells us what its purpose is.
 
+#### Script: CameraFollow.cs
 CameraFollow.cs only has one method, Update(). And Update() does only one thing here. It updates the camera’s position so that it’s always the same as the player’s position, plus an offset. In this case, the offset is -5 on the Z-axis, which means that the camera will always be 5 world units behind our player. Without the offset, the camera would instead be positioned exactly where the player is, so you wouldn’t see the player. But this could be cool if you were after a first person perspective instead.
 
-#### Directional Light
+#### Game Object: Directional Light
 The Directional Light game object is a default object that is always loaded in a Scene. It represents the sun and lights up our scene. In this case, we’re not making any adjustments to it. The default settings are just fine. But adjusting its Transform (particularly the Rotation) can result in some cool lighting affects that can affect the mood of the scene.
 
 #### The Ground
