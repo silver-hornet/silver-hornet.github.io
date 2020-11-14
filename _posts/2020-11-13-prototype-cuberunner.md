@@ -154,9 +154,7 @@ I find it interesting the way player movement was coded in this game:
             playerRb.AddForce(sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
 
-TEST
-
-We are using If statements combined with 'AddForce' and ForceMode.VelocityChange to make the player move.
+We are using If statements combined with `AddForce` and `ForceMode.VelocityChange` to make the player move.
 
 While it feels good to play, relying on Input.GetKey is a bit risky. It means we’re hardcoding the value of a specific key being pressed, which doesn’t allow the user to configure keys themselves. It would also be an issue if this game was ported to another device, such as mobile. A better option would be to use Input.GetAxis and Input.GetButton to avoid these issues.
 
