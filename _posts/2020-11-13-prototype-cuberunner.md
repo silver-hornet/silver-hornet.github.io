@@ -57,7 +57,7 @@ The game loads the Menu scene first, which contains a Canvas  with welcome text 
 The Start button is hooked up to a script called Menu.cs, which contains a StartGame() method. This method determines the BuildIndex number of the current scene, then adds 1. Indexes always start at 0, so since the Menu scene is the first scene in the game, its BuildIndex is 0. Level 1’s BuildIndex is 1, so when the Start button is clicked, the button calls StartGame(), which loads Level 1.
 
 ### Scene: Level 1
-Level 1 contains 9 game objects:
+Level 1 contains nine game objects:
 - Main Camera
 - Directional Light
 - Ground
@@ -142,8 +142,7 @@ The code is logical, easy to understand, and cleanly implemented. I like the way
 #### Player Movement
 I find it interesting the way player movement was coded in this game:
 
-{
-void FixedUpdate()
+	void FixedUpdate()
     {
         playerRb.AddForce(0, 0, forwardForce * Time.deltaTime);
 
@@ -167,8 +166,7 @@ The game handles loading scenes a bit differently between GameManager.cs and Lev
 
 In GameManager.cs, we have:
 
-{
-void Restart()
+	void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
@@ -181,7 +179,6 @@ public void LoadNextLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
-}
 
 Both do the job effectively, but are slightly different. One relies on a BuildIndex to load a scene, while the other relies on getting a build’s name. Neither is incorrect, but for consistency, I would probably prefer using ‘GetActiveScene().buildIndex’
 
