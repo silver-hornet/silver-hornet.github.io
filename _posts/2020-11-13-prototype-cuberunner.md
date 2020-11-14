@@ -7,6 +7,7 @@ author:
 meta: ""
 ---
 
+[![Cuberunner]({{site.url}}/cuberunner.png)]((https://play.unity.com/mg/other/cuberunner-from-brackey-s-how-to-make-a-video-game-tutorial-series))
 
 Cuberunner is a game prototype I built while following along with Brackeys’ [How to make a video game](https://www.youtube.com/watch?v=j48LtUkZRjU&list=PLPV2KyIb3jR53Jce9hP7G5xC4O9AgnOuL&index=1) tutorial series on YouTube. The core gameplay loop is:
 
@@ -18,10 +19,6 @@ Cuberunner is a game prototype I built while following along with Brackeys’ [H
 Play the game in your browser [here](https://play.unity.com/mg/other/cuberunner-from-brackey-s-how-to-make-a-video-game-tutorial-series).
 
 View my GitHub repo [here](https://github.com/silver-hornet/brackeys-cube-runner).
-
-![Cuberunner]({{site.url}}/cuberunner.png)
-
-![Alternative image](/images/cuberunner.png)
 
 ## Planning
 Here’s a high-level breakdown of the main features of this game:
