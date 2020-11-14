@@ -142,8 +142,6 @@ The code is logical, easy to understand, and cleanly implemented. I like the way
 #### Player Movement
 I find it interesting the way player movement was coded in this game:
 
-	void FixedUpdate()
-    {
         playerRb.AddForce(0, 0, forwardForce * Time.deltaTime);
 
         if (Input.GetKey(KeyCode.LeftArrow))
@@ -155,7 +153,6 @@ I find it interesting the way player movement was coded in this game:
         {
             playerRb.AddForce(sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
-}
 
 We are using If statements combined with AddForce and ForceMode.VelocityChange to make the player move.
 
@@ -170,12 +167,10 @@ In GameManager.cs, we have:
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-}
 
 While in LevelComplete.cs, we have:
 
-{
-public void LoadNextLevel()
+	public void LoadNextLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
