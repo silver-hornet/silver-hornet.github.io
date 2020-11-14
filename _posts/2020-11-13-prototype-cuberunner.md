@@ -15,28 +15,48 @@ Cuberunner is a game prototype I built while following along with Brackeys’ [H
 - Avoid obstacles
 - Get to the finish line
 
-You can play the game in your browser here. https://play.unity.com/mg/other/cuberunner-from-brackey-s-how-to-make-a-video-game-tutorial-series
+Play the game in your browser [here](https://play.unity.com/mg/other/cuberunner-from-brackey-s-how-to-make-a-video-game-tutorial-series).
 
-And you can view my GitHub repo here. https://github.com/silver-hornet/brackeys-cube-runner
+View my GitHub repo [here](https://github.com/silver-hornet/brackeys-cube-runner).
 
 ![Test4](/images/cuberunner.png)
 
-## How It Works
+## Planning
+Here’s a high-level breakdown of the main features of this game:
 
+|TO DO|DOING|DONE|
+|Create straight track|
+|Create player|
+|Make player move|
+|Make camera follow player|
+|Create obstacles|
+|Make player die|
+|Create finish line|
+|Display Score|
+|Create level 1|
+|Create level 2|
+|Display menu screen|
+|Display credits screen|
+|Deploy to Unity Play|
+
+
+## How It Works
 The game architecture consists of:
-- 4 scenes (Menu, Level 1, Level 2, Credits)
-- 9 types of game objects
+- 4 scenes
+- 9 game objects
 - 9 scripts
+
+Here’s a diagram of how the scripts (classes) communicate with each other and game objects:
 
 [DIAGRAM]
 
-### The Menu
+### Scene 1 (The Menu)
 
 The game loads the Menu scene first, which contains a Canvas  with welcome text and a Start button. The Canvas is a UI game object that is the parent object of other UI game objects within it (such as text and buttons). The Canvas is set to scale with screen size, which means that it will adjust to the user’s screen size, regardless of device.
 
 The Start button is hooked up to a script called Menu.cs, which contains a StartGame() method. This method determines the BuildIndex number of the current scene (Menu), then adds 1. In this case, the next BuildIndex number refers to Level 1. So when the Start button is clicked, the button calls StartGame(), which loads up Level 1.
 
-### Level 1
+### Scene 2 (Level 1)
 
 Level 1 contains 9 types of game objects:
 - Main Camera
@@ -49,7 +69,7 @@ Level 1 contains 9 types of game objects:
 - End
 - Obstacles
 
-#### Main Camera
+#### Game Object (Main Camera)
 By default, the main camera sits in a fixed position. Since our player will be moving forward, we will have to make the camera follow our player. This is why the Main Camera is hooked up to a script called CameraFollow. This is an example of good naming. The script name tells us what its purpose is.
 
 CameraFollow.cs only has one method, Update(). And Update() does only one thing here. It updates the camera’s position so that it’s always the same as the player’s position, plus an offset. In this case, the offset is -5 on the Z-axis, which means that the camera will always be 5 world units behind our player. Without the offset, the camera would instead be positioned exactly where the player is, so you wouldn’t see the player. But this could be cool if you were after a first person perspective instead.
@@ -110,10 +130,10 @@ End is another empty game object that you can’t see. It is positioned at the e
 Level 1 contains 6 obstacle game objects. These are just primitive cubes that have been resized. They each contain a Box Collider, set to the size of the obstacle, and a RigidBody (which isn’t actually necessary). This allows our player to collide with the obstacle.
 
 
-### Level 2
+### Scene 3 (Level 2)
 The architecture of Level 2 is identical to Level 1. The only difference is that the EndTrigger.cs script attached to the End game object will load the Credits scene once the player completes Level 2.
 
-### Credits
+### Scene 4 (Credits)
 The Credits scene is built in the same way the Menu scene was. The only difference is that the Quit button is hooked up to a script called Credits.ca, which contains a method called Quit(). This method quits the application. However, this only works if the game is a standalone application on Windows or Mac. If you’re playing it in the browser, the Quit() method will only stop the game.
 
 
