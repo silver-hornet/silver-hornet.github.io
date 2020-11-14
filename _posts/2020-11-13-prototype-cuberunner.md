@@ -142,7 +142,7 @@ The code is logical, easy to understand, and cleanly implemented. I like the way
 #### Player Movement
 I find it interesting the way player movement was coded in this game:
 
-‘’’
+{
 void FixedUpdate()
     {
         playerRb.AddForce(0, 0, forwardForce * Time.deltaTime);
@@ -156,7 +156,7 @@ void FixedUpdate()
         {
             playerRb.AddForce(sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
-‘’’
+}
 
 We are using If statements combined with AddForce and ForceMode.VelocityChange to make the player move.
 
@@ -167,21 +167,21 @@ The game handles loading scenes a bit differently between GameManager.cs and Lev
 
 In GameManager.cs, we have:
 
-‘’’
+{
 void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-‘’’
+}
 
 While in LevelComplete.cs, we have:
 
-‘’’
+{
 public void LoadNextLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
-‘’’
+}
 
 Both do the job effectively, but are slightly different. One relies on a BuildIndex to load a scene, while the other relies on getting a build’s name. Neither is incorrect, but for consistency, I would probably prefer using ‘GetActiveScene().buildIndex’
 
