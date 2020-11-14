@@ -21,8 +21,6 @@ View my GitHub repo [here](https://github.com/silver-hornet/brackeys-cube-runner
 
 ![Test4](/images/cuberunner.png)
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
 ## Planning
 Here’s a high-level breakdown of the main features of this game:
 
@@ -193,7 +191,7 @@ If, however, we want the obstacle to remain immovable, we could just remove the 
 ### What Next?
 This prototype is a good base for a fun game. It has simple mechanics, and with good level design and interesting challenges, it could be an addictive game. I can visualize adding all sorts of other fun features, such as moving obstacles, power-ups, lives, etc.
 
-## Useful Links
+## Links: Unity Documentation
 - [AddForce](https://docs.unity3d.com/2018.4/Documentation/ScriptReference/Rigidbody.AddForce.html)
 - [Anchors](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/UIBasicLayout.html)
 - [Animator](https://docs.unity3d.com/2018.4/Documentation/Manual/class-Animator.html)
