@@ -21,6 +21,8 @@ View my GitHub repo [here](https://github.com/silver-hornet/brackeys-cube-runner
 
 ![Test4](/images/cuberunner.png)
 
+![Branching](https://guides.github.com/activities/hello-world/branching.png)
+
 ## Planning
 Here’s a high-level breakdown of the main features of this game:
 
