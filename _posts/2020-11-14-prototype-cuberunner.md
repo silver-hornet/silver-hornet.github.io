@@ -46,7 +46,7 @@ The game architecture consists of:
 
 Here’s a diagram of how the scripts (classes) communicate with each other and game objects:
 
-[DIAGRAM]
+![Cuberunner Game Architecture Diagram]({{site.url}}/cuberunner-architecture.png)]
 
 The above diagram doesn’t show everything. It’s only meant to illustrate the most important parts of how this game works. So let’s get into some more detail now. For any terms that might be unfamiliar to you, I have included a list of useful links at the very end of this article.
 
