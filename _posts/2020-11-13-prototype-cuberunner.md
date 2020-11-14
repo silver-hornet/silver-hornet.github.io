@@ -24,7 +24,7 @@ View my GitHub repo [here](https://github.com/silver-hornet/brackeys-cube-runner
 ## Planning
 Here’s a high-level breakdown of the main features of this game:
 
-|TO DO|DOING|DONE|
+|**TO DO**|**DOING**|**DONE**|
 |Create straight track|
 |Create player|
 |Make player move|
@@ -156,7 +156,7 @@ I find it interesting the way player movement was coded in this game:
 
 We are using If statements combined with `AddForce` and `ForceMode.VelocityChange` to make the player move.
 
-While it feels good to play, relying on Input.GetKey is a bit risky. It means we’re hardcoding the value of a specific key being pressed, which doesn’t allow the user to configure keys themselves. It would also be an issue if this game was ported to another device, such as mobile. A better option would be to use Input.GetAxis and Input.GetButton to avoid these issues.
+While it feels good to play, relying on `Input.GetKey` is a bit risky. It means we’re hardcoding the value of a specific key being pressed, which doesn’t allow the user to configure keys themselves. It would also be an issue if this game was ported to another device, such as mobile. A better option would be to use `Input.GetAxis` and `Input.GetButton` to avoid these issues.
 
 #### Loading Scenes
 The game handles loading scenes a bit differently between GameManager.cs and LevelComplete.cs.
@@ -175,7 +175,7 @@ While in LevelComplete.cs, we have:
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-Both do the job effectively, but are slightly different. One relies on a BuildIndex to load a scene, while the other relies on getting a build’s name. Neither is incorrect, but for consistency, I would probably prefer using ‘GetActiveScene().buildIndex’
+Both do the job effectively, but are slightly different. One relies on a BuildIndex to load a scene, while the other relies on getting a build’s name. Neither is incorrect, but for consistency, I would probably prefer using `GetActiveScene().buildIndex`
 
 #### Score.cs
 While classes, methods, and variables are well-named throughout this codebase, perhaps the only exception is Score.cs.
