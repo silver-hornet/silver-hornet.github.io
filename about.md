@@ -6,13 +6,13 @@ permalink: /about/
 
 My game dev journey started off with a realization: games have been a strong part of my life since a very young age.
 
-Whether it was playing cards and board games, playing on my older brother’s Commodore 64 and Amiga 500, or eventually discovering classic consoles (Atari 2600, NES, Sega Master System II, Sega Mega Drive, SNES, N64), PC gaming, and more modern fare on iOS, Steam, and Xbox One. There are many platforms, titles, and genres I’ve enjoyed – and continue to enjoy – playing. I enjoy learning about the history of games, as well as learning about what it takes to make them.
+Whether it was playing cards and board games, playing on my older brother’s Commodore 64 and Amiga 500, or eventually discovering classic consoles (Atari 2600, NES, Sega Master System II, Sega Mega Drive, SNES, N64), PC gaming, or more modern fare on iOS, Steam, and Xbox One. There are many platforms, titles, and genres I’ve enjoyed – and continue to enjoy – playing. I enjoy learning about the history of games, as well as learning about what it takes to make them.
 
 While there have been periods of my life where other things took over for a while (university, jobs, immigration, life stuff), I always end up gravitating back to games. Even within my current career, I always find ways of incorporating the many positive social and problem-solving aspects of games into the workplace, whether that’s through team building board game sessions, or gamification to increase employee engagement.
 
 During the COVID-19 pandemic, I started to reflect on the things I really want to do. And being involved in making games keeps bubbling up to the top. So I thought it’s finally time to do something about that.
 
-How?
+#How?
 
 By setting two goals:
 

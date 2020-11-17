@@ -1,8 +1,8 @@
-title: 12-month Game Dev Journey
+title: Game Dev Journey
 author:
   # name: Silver-Hornet
 description: > # this means to ignore newlines until "show_excerpts:"
-  Just a small, humble website where I blog about my Unity game dev journey. Started my daily journey on June 29, 2020. Here's [why]({{site.url}}/about/).
+  Just a small, humble website about my Unity game dev journey. Started my daily journey on June 29, 2020. Let's see where this goes...
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
