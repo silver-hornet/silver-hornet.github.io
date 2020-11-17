@@ -12,7 +12,7 @@ While there have been periods of my life where other things took over for a whil
 
 During the COVID-19 pandemic, I’ve been reflecting more on the things I really want to do. And being involved in making games keeps bubbling to the top. So I thought... it’s finally time to do something about that.
 
-# How?
+## How?
 
 By setting two goals:
 
