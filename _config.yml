@@ -1,8 +1,8 @@
-title: Unity Game Dev Journey
+title: 12-month Game Dev Journey
 author:
   # name: Silver-Hornet
 description: > # this means to ignore newlines until "show_excerpts:"
-  Just a small, humble website where I blog about my Unity game dev journey. Started my daily journey on June 29, 2020. Let's see where this goes...
+  Just a small, humble website where I blog about my Unity game dev journey. Started my daily journey on June 29, 2020. Here's [why]({{site.url}}/about/).
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -45,9 +45,9 @@ minima:
     #   instance: example.com
 
 # If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-#header_pages:
-- about.md
+# this and add the path to the pages in order as they should show up 
+header_pages:
+  - about.md
 
 # Build settings
 theme: minima
