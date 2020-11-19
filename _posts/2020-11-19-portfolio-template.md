@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Prototype Cuberunner
-categories: prototypes
+title: Prototype NAMEs
+categories: portfolio
 author:
 - Silver-Hornet
 meta: ""
 ---
 
-[![Prototype name]({{site.url}}/imagename.png)](Unity Play URL)
+[![Prototype image name]({{site.url}}/imagename.png)](Unity Play URL)
 
 [NAME] is a game prototype I built while following along with [NAME] [Name of course](URL) [tutorial series/course] on [YouTube / Udemy / Unity Learn Premium]. The core gameplay loop is:
 

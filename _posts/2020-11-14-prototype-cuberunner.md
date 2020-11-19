@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Prototype Cuberunner
-categories: prototypes
+categories: portfolio
 author:
 - Silver-Hornet
 meta: ""
