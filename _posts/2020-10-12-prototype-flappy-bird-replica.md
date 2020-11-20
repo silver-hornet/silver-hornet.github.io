@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prototype Flappy Bird Replica
+title: Prototype 14 - Flappy Bird Replica
 categories: portfolio
 author:
 - Silver-Hornet

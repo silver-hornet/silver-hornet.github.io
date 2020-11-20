@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prototype Tic Tac Toe
+title: Prototype 18 - Tic Tac Toe
 categories: portfolio
 author:
 - Silver-Hornet

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prototype Bomberman Replica
+title: Prototype 16 - Bomberman Replica
 categories: portfolio
 author:
 - Silver-Hornet

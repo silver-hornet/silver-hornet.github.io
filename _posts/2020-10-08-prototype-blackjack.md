@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prototype Blackjack
+title: Prototype 11 - Blackjack
 categories: portfolio
 author:
 - Silver-Hornet

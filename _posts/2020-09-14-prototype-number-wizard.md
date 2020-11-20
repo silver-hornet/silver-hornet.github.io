@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prototype Number Wizard
+title: Prototype 6 - Number Wizard
 categories: portfolio
 author:
 - Silver-Hornet

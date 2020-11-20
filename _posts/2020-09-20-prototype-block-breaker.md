@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prototype Block Breaker
+title: Prototype 7 - Block Breaker
 categories: portfolio
 author:
 - Silver-Hornet

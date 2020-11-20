@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prototype Project Boost
+title: Prototype 22 - Project Boost
 categories: portfolio
 author:
 - Silver-Hornet

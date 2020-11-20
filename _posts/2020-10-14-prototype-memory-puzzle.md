@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prototype Memory Puzzle
+title: Prototype 15 - Memory Puzzle
 categories: portfolio
 author:
 - Silver-Hornet

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prototype Terminal Hacker
+title: Prototype 21 - Terminal Hacker
 categories: portfolio
 author:
 - Silver-Hornet

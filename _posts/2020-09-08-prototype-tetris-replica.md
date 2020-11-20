@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prototype Tetris Replica
+title: Prototype 3 - Tetris Replica
 categories: portfolio
 author:
 - Silver-Hornet

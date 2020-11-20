@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prototype Text 101 Adventure
+title: Prototype 5 - Text 101 Adventure
 categories: portfolio
 author:
 - Silver-Hornet

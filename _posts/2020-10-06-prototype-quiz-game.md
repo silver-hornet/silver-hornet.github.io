@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prototype Quiz Game
+title: Prototype 10 - Quiz Game
 categories: portfolio
 author:
 - Silver-Hornet

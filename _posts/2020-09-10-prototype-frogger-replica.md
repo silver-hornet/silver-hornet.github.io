@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prototype Frogger Replica
+title: Prototype 4 - Frogger Replica
 categories: portfolio
 author:
 - Silver-Hornet

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prototype Pong Replica
+title: Prototype 12 - Pong Replica
 categories: portfolio
 author:
 - Silver-Hornet

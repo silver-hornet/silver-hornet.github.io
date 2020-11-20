@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prototype TileVania
+title: Prototype 9 - TileVania
 categories: portfolio
 author:
 - Silver-Hornet

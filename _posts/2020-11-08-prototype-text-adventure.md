@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prototype Text Adventure
+title: Prototype 20 - Text Adventure
 categories: portfolio
 author:
 - Silver-Hornet

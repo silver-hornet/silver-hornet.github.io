@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prototype Space Invaders Replica
+title: Prototype 17 - Space Invaders Replica
 categories: portfolio
 author:
 - Silver-Hornet

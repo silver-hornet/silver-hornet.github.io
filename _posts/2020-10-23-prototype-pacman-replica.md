@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prototype PacMan Replica
+title: Prototype 19 - PacMan Replica
 categories: portfolio
 author:
 - Silver-Hornet
