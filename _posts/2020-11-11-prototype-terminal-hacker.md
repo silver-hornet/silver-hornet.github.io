@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prototype Laser Defender
+title: Prototype Terminal Hacker
 categories: portfolio
 author:
 - Silver-Hornet
