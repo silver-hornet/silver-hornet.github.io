@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prototype 1: Cuberunner
+title: Prototype 1 - Cuberunner
 categories: portfolio
 author:
 - Silver-Hornet
