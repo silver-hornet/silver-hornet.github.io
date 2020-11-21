@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: portfolio
 title: Portfolio
 permalink: /portfolio/
 ---
 
-Test
+Test 2
