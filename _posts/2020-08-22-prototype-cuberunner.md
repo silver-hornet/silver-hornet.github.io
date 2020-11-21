@@ -2,7 +2,7 @@
 layout: post
 title: Prototype 1 - Cuberunner
 category: blog
-tags: portfolio analysis
+tags: portfolio
 author:
 - Silver-Hornet
 meta: ""
