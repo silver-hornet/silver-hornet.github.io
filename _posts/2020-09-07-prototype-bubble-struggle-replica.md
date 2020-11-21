@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Prototype 2 - Bubble Struggle Replica
-categories: portfolio
+categories: portfolio test
 author:
 - Silver-Hornet
 meta: ""
