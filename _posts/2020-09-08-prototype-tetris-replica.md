@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Prototype 3 - Tetris Replica
-categories: portfolio
+tags: portfolio
 author:
 - Silver-Hornet
 meta: ""

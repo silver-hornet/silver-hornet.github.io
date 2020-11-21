@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Prototype 11 - Blackjack
-categories: portfolio
+tags: portfolio
 author:
 - Silver-Hornet
 meta: ""

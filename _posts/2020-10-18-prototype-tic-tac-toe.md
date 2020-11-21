@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Prototype 18 - Tic Tac Toe
-categories: portfolio
+tags: portfolio
 author:
 - Silver-Hornet
 meta: ""

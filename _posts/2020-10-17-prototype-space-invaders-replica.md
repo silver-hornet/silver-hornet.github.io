@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Prototype 17 - Space Invaders Replica
-categories: portfolio
+tags: portfolio
 author:
 - Silver-Hornet
 meta: ""

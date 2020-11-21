@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Prototype 22 - Project Boost
-categories: portfolio
+category: blog
+tags: portfolio
 author:
 - Silver-Hornet
 meta: ""

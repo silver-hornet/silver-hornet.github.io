@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Prototype 9 - TileVania
-categories: portfolio
+category: blog
+tags: portfolio
 author:
 - Silver-Hornet
 meta: ""

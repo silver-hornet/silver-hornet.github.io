@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Prototype 12 - Pong Replica
-categories: portfolio
+tags: portfolio
 author:
 - Silver-Hornet
 meta: ""

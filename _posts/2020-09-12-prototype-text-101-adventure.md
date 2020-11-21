@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Prototype 5 - Text 101 Adventure
-categories: portfolio
+tags: portfolio
 author:
 - Silver-Hornet
 meta: ""

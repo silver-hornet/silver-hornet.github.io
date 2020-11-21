@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Prototype 10 - Quiz Game
-categories: portfolio
+tags: portfolio
 author:
 - Silver-Hornet
 meta: ""

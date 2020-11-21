@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Prototype 13 - Snake Replica
-categories: portfolio
+tags: portfolio
 author:
 - Silver-Hornet
 meta: ""

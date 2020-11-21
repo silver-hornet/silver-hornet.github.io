@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Prototype 19 - PacMan Replica
-categories: portfolio
+tags: portfolio
 author:
 - Silver-Hornet
 meta: ""

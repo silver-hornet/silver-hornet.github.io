@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Prototype 6 - Number Wizard
-categories: portfolio
+tags: portfolio
 author:
 - Silver-Hornet
 meta: ""

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Prototype 14 - Flappy Bird Replica
-categories: portfolio
+tags: portfolio
 author:
 - Silver-Hornet
 meta: ""

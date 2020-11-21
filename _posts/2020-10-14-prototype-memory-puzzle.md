@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Prototype 15 - Memory Puzzle
-categories: portfolio
+tags: portfolio
 author:
 - Silver-Hornet
 meta: ""

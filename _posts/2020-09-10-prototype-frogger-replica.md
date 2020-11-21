@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Prototype 4 - Frogger Replica
-categories: portfolio
+tags: portfolio
 author:
 - Silver-Hornet
 meta: ""
