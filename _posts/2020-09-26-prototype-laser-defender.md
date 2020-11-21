@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Prototype 8 - Laser Defender
-category: blog
 tags: portfolio
 author:
 - Silver-Hornet

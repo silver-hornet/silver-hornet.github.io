@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Prototype 7 - Block Breaker
-category: blog
 tags: portfolio
 author:
 - Silver-Hornet
