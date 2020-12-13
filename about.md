@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-My game dev journey started off with a realization: games have been a strong part of my life from a very young age.
+My game dev journey started off with a realization: games have been a strong part of my life from a very young age
 
-Whether it was playing cards and board games, playing on my older brother’s Commodore 64 and Amiga 500, or eventually discovering classic consoles (Atari 2600, NES, Sega Master System II, Sega Mega Drive, SNES, N64), PC gaming, or more modern fare on iOS, Steam, and Xbox One. There are many platforms, titles, and genres I’ve enjoyed – and continue to enjoy – playing. I enjoy learning about the history of games, as well as learning about what it takes to make them.
+Whether it was playing cards and board games, playing on my older brother’s Commodore 64 and Amiga 500, or eventually discovering classic consoles (Atari 2600, NES, Sega Master System II, Sega Mega Drive, SNES, N64), PC gaming, or more modern fare on iOS, Steam, Xbox One, and PS4. There are many platforms, titles, and genres I’ve enjoyed – and continue to enjoy – playing. I enjoy learning about the history of games, as well as learning about what it takes to make them.
 
 While there have been periods of my life where other things took over for a while (university, jobs, immigration, life stuff), I always end up gravitating back to games. Even within my current (non-game) career, I always find ways of incorporating the many positive social and problem-solving aspects of games into the workplace, whether that’s through team building board game sessions, or gamification to increase employee engagement.
 
