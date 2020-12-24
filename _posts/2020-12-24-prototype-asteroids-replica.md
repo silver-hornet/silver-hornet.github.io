@@ -9,7 +9,7 @@ meta: ""
 
 [![Asteroids Replica]({{site.url}}/asteroids-replica.png)](https://play.unity.com/mg/other/asteroids-replica)
 
-This is my first solo game prototype without following a tutorial. My goal was to create a close replica to the original Asteroids game. The core gameplay loop is:
+This is my first solo game prototype without following a tutorial. My goal was to create a close replica of the original Asteroids game. The core gameplay loop is:
 
 - Use thrust, rotate, and hyperspace to move around the screen
 - Shoot and avoid asteroids
