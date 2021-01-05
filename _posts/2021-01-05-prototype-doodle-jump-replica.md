@@ -12,7 +12,7 @@ meta: ""
 Doodle Jump Replica is a game prototype I built while following along with Brackeys’ [How to make Doodle Jump in Unity](https://www.youtube.com/watch?v=fHN-26GEVhA) tutorial on YouTube. The core gameplay loop is:
 
 - Move left and right
-- Keep moving up 
+- Keep jumping up 
 - Don’t fall below the screen
 
 Play the game in your browser [here](https://play.unity.com/mg/other/brackeys-doodle-jump-replica).
