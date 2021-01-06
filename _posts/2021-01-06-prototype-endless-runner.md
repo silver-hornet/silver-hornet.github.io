@@ -9,7 +9,7 @@ meta: ""
 
 [![Endless Runner]({{site.url}}/endless-runner.png)](https://play.unity.com/mg/other/blackthornprod-s-endless-runner)
 
-Doodle Jump Replica is a game prototype I built while following along with Blackthornprod’s [How to make a simple game in Unity - Endless Runner](https://www.youtube.com/watch?v=fHN-26GEVhA) tutorial series on YouTube. The core gameplay loop is:
+Endless Runner is a game prototype I built while following along with Blackthornprod’s [How to make a simple game in Unity - Endless Runner](https://www.youtube.com/watch?v=fHN-26GEVhA) tutorial series on YouTube. The core gameplay loop is:
 
 - Move up and down
 - Avoid enemies 
