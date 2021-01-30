@@ -11,7 +11,7 @@ meta: ""
 
 Glitch Garden is a game prototype I built while following along with GameDevTV’s [Complete C# Unity Game Developer 2D](https://www.udemy.com/course/unitycourse/) course on Udemy. The core gameplay loop is:
 
-- Use your resources to buy defenders (cactus, trophy, tombstone, or gnome)
+- Use your resources to buy defenders (cactus, trophy, gnome, or tombstone)
 - Place defenders to prevent attackers from reaching the left-side of the screen
 - Stop enough defenders to progress to the next level
 
