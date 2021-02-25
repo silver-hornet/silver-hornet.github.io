@@ -49,7 +49,6 @@ minima:
 header_pages:
   - portfolio.md
   - about.md
-  - blog.md
 
 # Build settings
 theme: minima
