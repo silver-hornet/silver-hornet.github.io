@@ -1,14 +1,13 @@
 ---
 layout: post
 title: Prototype 1 - Cuberunner
-category: blog
 tags: portfolio
 author:
 - Silver-Hornet
 meta: ""
 ---
 
-[![Cuberunner]({{site.url}}/cuberunner.gif)]
+![Cuberunner]({{site.url}}/cuberunner.gif)
 
 Cuberunner is a game prototype I built while following along with Brackeys’ [How to make a video game](https://www.youtube.com/watch?v=j48LtUkZRjU&list=PLPV2KyIb3jR53Jce9hP7G5xC4O9AgnOuL&index=1) tutorial series on YouTube. The core gameplay loop is:
 

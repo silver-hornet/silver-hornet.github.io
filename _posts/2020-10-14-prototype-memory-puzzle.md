@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Memory Puzzle]({{site.url}}/memory-puzzle.gif)]
+![Memory Puzzle]({{site.url}}/memory-puzzle.gif)
 
 Memory Puzzle is a game prototype I built while following along with Awesome Tuts’ [Unity Memory Game Tutorial](https://www.youtube.com/watch?v=qaCjBh7bWz0&list=PLZhNP5qJ2IA2DA4bzDyxFMs8yogVQSrjW&index=1) tutorial series on YouTube. The core gameplay loop is:
 

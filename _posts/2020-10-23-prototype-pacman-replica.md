@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![PacMan Replica]({{site.url}}/pacman-replica.gif)]
+![PacMan Replica]({{site.url}}/pacman-replica.gif)
 
 PacMan Replica is a game prototype I built while following along with Noob Tuts’ [Unity 2D PacMan Tutorial](https://noobtuts.com/unity/2d-pacman-game) on [Noob Tuts](https://www.noobtuts.com/). The core gameplay loop is:
 

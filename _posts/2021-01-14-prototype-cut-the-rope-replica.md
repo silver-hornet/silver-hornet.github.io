@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Cut the Rope Replica]({{site.url}}/cut-the-rope-replica.gif)]
+![Cut the Rope Replica]({{site.url}}/cut-the-rope-replica.gif)
 
 Cut the Rope Replica is a game prototype I built while following along with Brackeys’ [How to make a Cut the Rope Replica in Unity](https://www.youtube.com/watch?v=dx3jb4muLjQ&list=PLPV2KyIb3jR5RwVEjFCiN5BvK3Quqgv_M&index=10) tutorial on YouTube. The core gameplay loop is:
 

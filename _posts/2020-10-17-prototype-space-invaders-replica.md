@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Space Invaders Replica]({{site.url}}/space-invaders-replica.gif)]
+[![Space Invaders Replica]({{site.url}}/space-invaders-replica.png)]
 
 Space Invaders Replica is a game prototype I built while following along with Stephen Barr’s [Making Space Invaders with Unity](https://www.youtube.com/watch?v=cnfwNzpoIlA) tutorial on YouTube. The core gameplay loop is:
 

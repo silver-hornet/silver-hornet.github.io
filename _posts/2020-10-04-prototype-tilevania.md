@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![TileVania]({{site.url}}/tilevania.gif)]
+![TileVania]({{site.url}}/tilevania.gif)
 
 TileVania is a game prototype I built while following along with GameDevTV’s [Complete C# Unity Game Developer 2D](https://www.udemy.com/course/unitycourse/) course on Udemy. The core gameplay loop is:
 

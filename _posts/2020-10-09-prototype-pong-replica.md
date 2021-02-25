@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Pong Replica]({{site.url}}/pong-replica.gif)]
+![Pong Replica]({{site.url}}/pong-replica.gif)
 
 Pong Replica is a game prototype I built while following along with Noob Tuts’ [Unity 2D Pong Tutorial](https://noobtuts.com/unity/2d-pong-game) on [Noob Tuts](https://www.noobtuts.com/). The core gameplay loop is:
 

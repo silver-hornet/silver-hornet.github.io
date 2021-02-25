@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Fox’s Tale]({{site.url}}/foxs-tale.gif)]
+![Fox’s Tale]({{site.url}}/foxs-tale.gif)
 
 
 Fox’s Tale is a game prototype (basically a mini-game this time) I built while following along with James Doyle’s [Learn To Code By Making a 2D Platformer in Unity & C#](https://www.udemy.com/course/unityplatformer/) course on Udemy. The core gameplay loop is:

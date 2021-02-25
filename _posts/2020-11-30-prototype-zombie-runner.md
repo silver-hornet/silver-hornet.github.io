@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Zombie Runner]({{site.url}}/zombie-runner.gif)]
+![Zombie Runner]({{site.url}}/zombie-runner.png)
 
 Zombie Runner is a game prototype I built while following along with GameDevTV’s [Complete C# Unity Game Developer 3D](https://www.udemy.com/course/unitycourse2/) course on Udemy. The core gameplay loop is:
 

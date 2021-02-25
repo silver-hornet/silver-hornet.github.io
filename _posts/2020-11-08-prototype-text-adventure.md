@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Text Adventure]({{site.url}}/text-adventure.gif)]
+![Text Adventure]({{site.url}}/text-adventure.gif)
 
 Text Adventure is a game prototype I built while following along with Unity’s [Text Adventure Game](https://learn.unity.com/tutorial/live-session-making-a-flappy-bird-style-game) tutorial series on Unity Learn Premium. The core gameplay loop is:
 

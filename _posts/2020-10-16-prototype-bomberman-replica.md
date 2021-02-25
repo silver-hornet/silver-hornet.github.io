@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Bomberman Replica]({{site.url}}/bomberman-replica.gif)]
+![Bomberman Replica]({{site.url}}/bomberman-replica.gif)
 
 Quiz Game is a game prototype I built while following along with Brackeys’ [How to make Bomberman in Unity](https://www.youtube.com/watch?v=ilXO5rBa6dw) tutorial on YouTube. The core gameplay loop is:
 

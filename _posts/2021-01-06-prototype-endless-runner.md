@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Endless Runner]({{site.url}}/endless-runner.gif)]
+![Endless Runner]({{site.url}}/endless-runner.gif)
 
 Endless Runner is a game prototype I built while following along with Blackthornprod’s [How to make a simple game in Unity - Endless Runner](https://www.youtube.com/watch?v=5M7vX_z6B9I) tutorial series on YouTube. The core gameplay loop is:
 

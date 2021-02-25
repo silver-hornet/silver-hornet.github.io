@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Fruit Ninja Replica]({{site.url}}/fruit-ninja-replica.gif)]
+![Fruit Ninja Replica]({{site.url}}/fruit-ninja-replica.gif)
 
 Fruit Ninja Replica is a game prototype I built while following along with Brackeys’ [How to make Fruit Slicing in Unity](https://www.youtube.com/watch?v=3g5_8sE18tQ&list=PLPV2KyIb3jR5RwVEjFCiN5BvK3Quqgv_M&index=11) tutorial on YouTube. The core gameplay loop is:
 

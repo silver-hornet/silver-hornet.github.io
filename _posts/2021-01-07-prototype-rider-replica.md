@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Rider Replica]({{site.url}}/rider-replica.gif)]
+![Rider Replica]({{site.url}}/rider-replica.gif)
 
 Rider Replica is a game prototype I built while following along with Brackeys’ [How to make RIDER in Unity](https://www.youtube.com/watch?v=9Ztd1XXmUGI&list=PLPV2KyIb3jR5RwVEjFCiN5BvK3Quqgv_M&index=15) tutorial on YouTube. The core gameplay loop is:
 

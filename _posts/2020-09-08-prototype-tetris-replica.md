@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Tetris Replica]({{site.url}}/tetris-replica.gif)]
+![Tetris Replica]({{site.url}}/tetris-replica.png)
 
 Tetris Replica is a game prototype I built while following along with Noob Tuts’ [Unity 2D Tetris Tutorial](https://www.noobtuts.com/unity/2d-tetris-game) on [Noob Tuts](https://www.noobtuts.com/). The core gameplay loop is:
 
