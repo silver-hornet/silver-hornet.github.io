@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-![Text 101 Adventure]({{site.url}}/text-101-adventure.gif)
+![Text 101 Adventure]({{site.url}}/text-101-adventure.png)
 
 Text 101 Adventure is a game prototype I built while following along with GameDevTV’s [Complete C# Unity Game Developer 2D](https://www.udemy.com/course/unitycourse/) course on Udemy. The core gameplay loop is:
 
