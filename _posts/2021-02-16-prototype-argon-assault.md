@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Argon Assault]({{site.url}}/argon-assault.gif)]
+![Argon Assault]({{site.url}}/argon-assault.gif)
 
 Argon Assault is a game prototype I built while following along with GameDevTV’s [Complete C# Unity Game Developer 3D](https://www.udemy.com/course/unitycourse2/) course on Udemy. The core gameplay loop is:
 
