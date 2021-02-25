@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Snake Replica]({{site.url}}/snake-replica.png)](https://play.unity.com/mg/other/snake-replica-from-noob-tuts-unity-2d-snake-tutorial)
+[![Snake Replica]({{site.url}}/snake-replica.gif)]
 
 Snake Replica is a game prototype I built while following along with Noob Tuts’ [Unity 2D Snake Tutorial](https://noobtuts.com/unity/2d-snake-game) on [Noob Tuts](https://www.noobtuts.com/). The core gameplay loop is:
 

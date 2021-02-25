@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Tic Tac Toe]({{site.url}}/tic-tac-toe.png)](https://play.unity.com/mg/other/uy-studios-tic-tac-toe-basic-ai-version)
+[![Tic Tac Toe]({{site.url}}/tic-tac-toe.gif)]
 
 Tic Tac Toe is a game prototype I built while following along with UY Studios’ [How To Make 2D Tic Tac Toe Game](https://www.youtube.com/watch?v=FBamzpJTlG4&list=PLkzh1bySTmYB83ybePBUtsP4t0DAdspiw) tutorial series on YouTube. The core gameplay loop is:
 

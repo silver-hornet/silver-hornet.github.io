@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Flappy Bird Replica]({{site.url}}/flappy-bird-replica.png)](https://play.unity.com/mg/other/flappy-bird-replica-from-unity-s-making-a-flappy-bird-style-game-tutorial)
+[![Flappy Bird Replica]({{site.url}}/flappy-bird-replica.gif)]
 
 Flappy Bird Replica is a game prototype I built while following along with Unity’s [Making a Flappy Bird Style Game](https://learn.unity.com/tutorial/live-session-making-a-flappy-bird-style-game) tutorial series on Unity Learn Premium. The core gameplay loop is:
 

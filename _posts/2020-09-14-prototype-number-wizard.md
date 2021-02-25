@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Number Wizard]({{site.url}}/number-wizard.png)](https://play.unity.com/mg/other/gamedevtv-s-number-wizard)
+[![Number Wizard]({{site.url}}/number-wizard.gif)]
 
 Number Wizard is a game prototype I built while following along with GameDevTV’s [Complete C# Unity Game Developer 2D](https://www.udemy.com/course/unitycourse/) course on Udemy. The core gameplay loop is:
 

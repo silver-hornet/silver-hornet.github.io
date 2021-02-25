@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Laser Defender]({{site.url}}/laser-defender.png)](https://play.unity.com/mg/other/gamedevtv-s-laser-defender)
+[![Laser Defender]({{site.url}}/laser-defender.gif)]
 
 Laser Defender is a game prototype I built while following along with GameDevTV’s [Complete C# Unity Game Developer 2D](https://www.udemy.com/course/unitycourse/) course on Udemy. The core gameplay loop is:
 

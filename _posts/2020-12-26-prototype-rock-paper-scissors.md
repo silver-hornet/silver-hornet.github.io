@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Rock Paper Scissors]({{site.url}}/rock-paper-scissors.png)](https://play.unity.com/mg/other/rock-paper-scissors-4)
+[![Rock Paper Scissors]({{site.url}}/rock-paper-scissors.gif)]
 
 My own prototype of a basic Rock Paper Scissors game. The core gameplay loop is:
 

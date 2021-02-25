@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Asteroids Replica]({{site.url}}/asteroids-replica.png)](https://play.unity.com/mg/other/asteroids-replica)
+[![Asteroids Replica]({{site.url}}/asteroids-replica.gif)]
 
 This is my first solo game prototype without following a tutorial. My goal was to create a close replica of the original Asteroids game. The core gameplay loop is:
 

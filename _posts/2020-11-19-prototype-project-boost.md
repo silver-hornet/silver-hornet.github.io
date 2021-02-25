@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Project Boost]({{site.url}}/project-boost.png)](https://play.unity.com/mg/other/gamedevtv-s-project-boost)
+[![Project Boost]({{site.url}}/project-boost.gif)]
 
 Project Boost is a game prototype I built while following along with GameDevTV’s [Complete C# Unity Game Developer 3D](https://www.udemy.com/course/unitycourse2/) course on Udemy. The core gameplay loop is:
 

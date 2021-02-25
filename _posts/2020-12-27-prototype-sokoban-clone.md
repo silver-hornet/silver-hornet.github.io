@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Sokoban Clone]({{site.url}}/sokoban-clone.png)](https://play.unity.com/mg/other/platoevolved-s-sokoban-clone)
+[![Sokoban Clone]({{site.url}}/sokoban-clone.gif)]
 
 
 Sokoban Clone is a game prototype I built while following along with Platoevolved’s [Box Pusher - Create a Sokoban Clone in Unity](https://www.youtube.com/watch?v=ESh8phnmiXg) tutorial on YouTube. The core gameplay loop is:

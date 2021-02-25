@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Doodle Jump Replica]({{site.url}}/doodle-jump-replica.png)](https://play.unity.com/mg/other/brackeys-doodle-jump-replica)
+[![Doodle Jump Replica]({{site.url}}/doodle-jump-replica.gif)]
 
 Doodle Jump Replica is a game prototype I built while following along with Brackeys’ [How to make Doodle Jump in Unity](https://www.youtube.com/watch?v=fHN-26GEVhA) tutorial on YouTube. The core gameplay loop is:
 

@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Glitch Garden]({{site.url}}/glitch-garden.png)](https://play.unity.com/mg/other/glitch-garden-5)
+[![Glitch Garden]({{site.url}}/glitch-garden.gif)]
 
 Glitch Garden is a game prototype I built while following along with GameDevTV’s [Complete C# Unity Game Developer 2D](https://www.udemy.com/course/unitycourse/) course on Udemy. The core gameplay loop is:
 

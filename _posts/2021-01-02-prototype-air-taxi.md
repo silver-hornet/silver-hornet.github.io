@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Air Taxi]({{site.url}}/air-taxi.png)](https://play.unity.com/mg/other/air-taxi)
+[![Air Taxi]({{site.url}}/air-taxi.gif)]
 
 My own prototype of an air taxi game. The core gameplay loop is:
 

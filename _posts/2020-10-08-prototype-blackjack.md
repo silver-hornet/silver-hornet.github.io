@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-[![Quiz Game]({{site.url}}/blackjack.png)](https://play.unity.com/mg/other/kurt-kaiser-s-blackjack)
+[![Quiz Game]({{site.url}}/blackjack.gif)]
 
 Blackjack is a game prototype I built while following along with Kurt Kaiser’s [How to Make a Game - Create Blackjack and Learn Unity Fundamentals](https://www.youtube.com/playlist?list=PLbsvRhEyGkKfl4AY3uUkocO02Vg_mhI0-) tutorial series on YouTube. The core gameplay loop is:
 
