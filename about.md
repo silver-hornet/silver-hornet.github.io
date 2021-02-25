@@ -16,9 +16,9 @@ During the COVID-19 pandemic, I’ve been reflecting more on the things I really
 
 By setting two goals:
 
-1. Build 40 prototypes plus 1 full (small) game within my first 12 months of learning game development using Unity and C#.
+1. Build 40 prototypes within my first 12 months of learning game development using Unity and C#.
 2. Work on this every day, even if it’s just 15 minutes. Constant repetition and immersion is the only way to make real progress and build momentum.
 
-The 40 prototypes can be built while following along with tutorials, while the 1 full game will either be a polished version of one of the prototypes (with more levels) or an attempt at one of my own 140+ game ideas I’ve come up with over the years.
+The 40 prototypes can be built while following along with tutorials. After my first 12 months, I might consider building a polished version of one of these prototypes (with more levels) or make an attempt at one of my own 140+ game ideas I’ve come up with over the years.
 
 I started this initial 12-month daily game dev journey on June 29, 2020. This website will document my progress; showcasing my prototypes, and sharing some of the things I have learned along the way.
