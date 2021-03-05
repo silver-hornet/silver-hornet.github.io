@@ -11,10 +11,6 @@ meta: ""
 
 Realm Rush Tower Defence is a game prototype I built while following along with GameDevTV’s [Complete C# Unity Game Developer 3D](https://www.udemy.com/course/unitycourse2/) course on Udemy. The core gameplay loop is:
 
-- Move left, right, up, and down
-- Avoid hitting obstacles and terrain
-- Shoot enemies to score points
-
 - Place your tower defenders to prevent attackers from reaching the player base at the top of the screen
 - Get as high a score as you can before your player base health ends
 
