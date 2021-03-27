@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-![Wilmer Lin’s Match-Three]({{site.url}}/match-three.png)
+![Wilmer Lin’s Match-Three]({{site.url}}/match-three.gif)
 
 Match-Three is a game prototype I built while following along with Wilmer Lin’s [Make a Match-Three Puzzle Game in Unity](https://www.udemy.com/course/make-a-puzzle-match-game-in-unity/) course on Udemy. The core gameplay loop is:
 
