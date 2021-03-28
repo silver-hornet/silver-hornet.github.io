@@ -14,6 +14,6 @@ John Lemon’s Haunted Jaunt is a game prototype I built while following along w
 - Move John Lemon around the environment to find the exit
 - Avoid being caught by ghosts and gargoyles
 
-Play the game in your browser [here](https://play.unity.com/mg/other/john-lemon-s-haunted-jaunt-12).
+Play the game in your browser [here](https://play.unity.com/mg/other/john-lemon-s-haunted-jaunt-14).
 
 View my GitHub repo [here](https://github.com/silver-hornet/john-lemons-haunted-jaunt).
