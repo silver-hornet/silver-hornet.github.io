@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-![James Doyle’s Race Stars]({{site.url}}/race-stars.png)
+![James Doyle’s Race Stars]({{site.url}}/race-stars.gif)
 
 Race Stars is a game prototype (basically a mini-game this time) I built while following along with James Doyle’s [Learn To Create A Racing Game With Unity & C#](https://www.udemy.com/course/unity-racer/) course on Udemy. The core gameplay loop is:
 
