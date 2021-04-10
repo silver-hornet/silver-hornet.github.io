@@ -16,4 +16,4 @@ Race Stars is a game prototype (basically a mini-game this time) I built while f
 
 Play the game in your browser [here](https://play.unity.com/mg/other/james-doyle-s-race-stars).
 
-View my GitHub repo [here](https://github.com/silver-hornet/james-doyle-car-racing).
+View my GitHub repo [here](https://github.com/silver-hornet/james-doyle-race-stars).
