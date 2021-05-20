@@ -7,7 +7,7 @@ author:
 meta: ""
 ---
 
-![James Doyle’s 2D RPG]({{site.url}}/2d-rpg.png)
+![James Doyle’s 2D RPG]({{site.url}}/2d-rpg.gif)
 
 Yet Another 2D RPG Game is a game prototype (basically a mini-game this time) I built while following along with James Doyle’s [Learn To Create An RPG Game In Unity](https://www.udemy.com/course/unity2drpg/) course on Udemy. This is my first prototype that actually contains a story and dialogue.
 
