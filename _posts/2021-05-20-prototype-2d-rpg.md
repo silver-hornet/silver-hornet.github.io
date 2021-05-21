@@ -21,4 +21,4 @@ The core gameplay loop is:
 
 Play the game in your browser [here](https://play.unity.com/mg/other/james-doyle-s-2d-rpg).
 
-View my GitHub repo [here](https://github.com/silver-hornet/james-doyle-rpg).
+View my GitHub repo [here](https://github.com/silver-hornet/james-doyle-2d-rpg).
