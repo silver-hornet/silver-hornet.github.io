@@ -56,7 +56,7 @@ There are two ways of dealing with this, depending on the reason why the field w
 
 But if the field was made public because other scripts need to access that field, it’s preferable to do that through its own method or properties (eg. a getter, a setter, or both) instead.
 
-Using `Instantiate` for the ball splitting mechanic is also not optimal. Like most improvements mentioned above, this isn’t really a problem for such a small prototype, but could present performance issues for a bigger game that instantiates more objects simulatenously, and more frequently. In that situation, the CPU would need to allocate considerably more resources to manage the constant cycle of creating and removing these objects (the latter which uses Unity’s Garbage Collection). 
+Using `Instantiate` for the ball splitting mechanic is also not optimal. Like most improvements mentioned above, this isn’t really a problem for such a small prototype, but could present performance issues for a bigger game that instantiates more objects simultaneously, and more frequently. In that situation, the CPU would need to allocate considerably more resources to manage the constant cycle of creating and removing these objects (the latter which uses Unity’s Garbage Collection). 
 For those sorts of scenarios, it would be better to use a design pattern, such as an object pool. An object pool pre-instantiates all the objects a scene will need into a pool before gameplay begins. The game then reuses the objects in this pool by activating and deactivating them, which is much less costly in terms of CPU processing power.
 
 ## Code Recipes
