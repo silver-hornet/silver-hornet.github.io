@@ -23,15 +23,21 @@ View my GitHub repo [here](https://github.com/silver-hornet/gamedevtv-text101).
 - Rooms
 
 ## What did I like about building this prototype?
-As a kid, I remember getting my hands on a [Choose Your Own Adventure](https://en.wikipedia.org/wiki/Choose_Your_Own_Adventure)-type book. It was cool to choose the direction of the narrative. This prototype replicates that kind of feel.
+As a kid, I remember getting my hands on a [Choose Your Own Adventure](https://en.wikipedia.org/wiki/Choose_Your_Own_Adventure)-type book. It was cool to choose the direction of the narrative. This prototype replicates that kind of experience.
 
-This is a very learn prototype. It only contains 60 lines of code. Even if the prototype contained more rooms, and more choices per room, it would still only contain 60 lines of code. How is that possible?
+This is a very lean prototype with no actual story. It only contains 60 lines of code. Even if the prototype contained more rooms, and more choices per room, it would still only contain 60 lines of code. How is that possible?
 
-It’s all thanks to Scriptable Objects. This was the first time I have used them. Scriptable Objects are ...
+It’s all thanks to Scriptable Objects. This was the first time I have used them. Scriptable Objects are a special class of their own, and are useful for storing data such as the rooms in this game. From Unity’s documentation:
+
+> A ScriptableObject is a data container that you can use to save large amounts of data, independent of class instances. One of the main use cases for ScriptableObjects is to reduce your Project’s memory usage by avoiding copies of values. This is useful if your Project has a Prefab that stores unchanging data in attached MonoBehaviour scripts.
+
+> Every time you instantiate that Prefab, it will get its own copy of that data. Instead of using the method, and storing duplicated data, you can use a ScriptableObject to store the data and then access it by reference from all of the Prefabs. This means that there is one copy of the data in memory.
+
+> Just like MonoBehaviours, ScriptableObjects derive from the base Unity object but, unlike MonoBehaviours, you can not attach a ScriptableObject to a GameObject. Instead, you need to save them as Assets in your Project. 
 
 There is only one type of Scriptable Object in this prototype. It contains a text (string) field, and an array of choices to proceed. Each of the choices has its own instance of this Scriptable Object template. Scriptable Objects make it easy for someone to create new rooms, with new text and choices, without having to touch the underlying code (since the code doesn’t change, no matter which room you’re in).
 
-I liked the simple way the prototype checks for keyboard input during the Update loop.
+I like the simple way the prototype checks for keyboard input during the Update loop:
 
         var nextStates = state.GetNextStates();
         for (int index = 0; index < nextStates.Length; index++)
@@ -69,14 +75,16 @@ Then, to enable it to play, we could add the following lines of code to the top 
     	}
 	// The two lines above ensure that the start of the game loads its voice narration clip as well.
 
+And then we would adjust the for loop to include the following:
+
 	for (int index = 0; index < nextStates.Length; index++)
         {
             if (Input.GetKeyDown(KeyCode.Alpha1 + index))
             {
-                **myAudioSource.Stop();** // To ensure that voice narration clips don’t play over the top of clips from other rooms
+                myAudioSource.Stop(); // To ensure that voice narration clips don’t play over the top of clips from other rooms
                 state = nextStates[index];
-                **myAudioClip = state.voiceNarration;**
-                **myAudioSource.PlayOneShot(myAudioClip);**
+                myAudioClip = state.voiceNarration;
+                myAudioSource.PlayOneShot(myAudioClip);
             }
         }
 
@@ -87,23 +95,22 @@ Then, to enable it to play, we could add the following lines of code to the top 
 - [Audio Source](https://docs.unity3d.com/2018.4/Documentation/Manual/class-AudioSource.html)
 - [Canvas](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/UICanvas.html)
 - [Canvas Components](https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/comp-CanvasComponents.html)
+- [CreateAssetMenuAttribute](https://docs.unity3d.com/ScriptReference/CreateAssetMenuAttribute.html)
 - [Event System](https://docs.unity3d.com/2018.4/Documentation/Manual/EventSystem.html)
 - [Fields](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/fields)
+- [Learn conditional logic with branch and loop statements](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/branches-and-loops-local)
 - [GameObject](https://docs.unity3d.com/2018.4/Documentation/ScriptReference/GameObject.html)
 - [If-else statements](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/if-else)
 - [Input.GetButtonDown](https://docs.unity3d.com/2018.4/Documentation/ScriptReference/Input.GetButtonDown.html)
 - [Input.GetKeyDown](https://docs.unity3d.com/2018.4/Documentation/ScriptReference/Input.GetKeyDown.html)
 - [Inspector](https://docs.unity3d.com/2018.4/Documentation/Manual/UsingTheInspector.html)
 - [KeyCode](https://docs.unity3d.com/2018.4/Documentation/ScriptReference/KeyCode.html)
+-  [MonoBehaviour](https://docs.unity3d.com/Manual/class-MonoBehaviour.html)
+- [Return statement](https://en.wikipedia.org/wiki/Return_statement)
+- [ScriptableObject](https://docs.unity3d.com/2018.4/Documentation/Manual/class-ScriptableObject.html)
 - [SerializeField](https://docs.unity3d.com/2018.4/Documentation/ScriptReference/SerializeField.html)
 - [Start](https://docs.unity3d.com/2018.4/Documentation/ScriptReference/MonoBehaviour.Start.html)
+- [TextAreaAttribute](https://docs.unity3d.com/2018.4/Documentation/ScriptReference/TextAreaAttribute.html)
+- [TextMeshPro](https://docs.unity3d.com/2018.4/Documentation/Manual/com.unity.textmeshpro.html)
 - [UI.Text](https://docs.unity3d.com/2018.4/Documentation/ScriptReference/UI.Text.html)
 - [Update](https://docs.unity3d.com/2018.4/Documentation/ScriptReference/Experimental.PlayerLoop.Update.html)
-
-TextMeshPro
-Scriptable Objects
-[CreateAssetMenu(menuName = “State”)]
-[TextArea(10, 14)] [SerializeField]
-For loop
-return
-Fonts
