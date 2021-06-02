@@ -79,7 +79,8 @@ Then, to enable it to play, we could add the following lines of code to the top 
         myAudioClip = state.voiceNarration;
         myAudioSource.PlayOneShot(myAudioClip);
     	}
-	// The two lines above ensure that the start of the game loads its voice narration clip as well.
+	
+	// The two lines in Start() ensure that the first room of the game also loads its voice narration clip.
 
 And then we would adjust the for loop to include the following:
 
