@@ -80,7 +80,7 @@ Then, to enable it to play, we could add the following lines of code to the top 
         myAudioSource.PlayOneShot(myAudioClip);
     	}
 	
-	// The two lines in Start() ensure that the first room of the game also loads its voice narration clip.
+	// The two statements in Start() ensure that the first room of the game also loads its voice narration clip.
 
 And then we would adjust the for loop to include the following:
 
@@ -105,7 +105,7 @@ And then we would adjust the for loop to include the following:
 - [CreateAssetMenuAttribute](https://docs.unity3d.com/ScriptReference/CreateAssetMenuAttribute.html)
 - [Event System](https://docs.unity3d.com/2018.4/Documentation/Manual/EventSystem.html)
 - [Fields](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/fields)
-- [Learn conditional logic with branch and loop statements](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/branches-and-loops-local)
+- [For loop statements](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/branches-and-loops-local)
 - [GameObject](https://docs.unity3d.com/2018.4/Documentation/ScriptReference/GameObject.html)
 - [If-else statements](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/if-else)
 - [Input.GetButtonDown](https://docs.unity3d.com/2018.4/Documentation/ScriptReference/Input.GetButtonDown.html)
