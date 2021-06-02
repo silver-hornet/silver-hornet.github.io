@@ -63,11 +63,11 @@ This prototype doesn’t contain any sounds or music. While this is meant to be 
 
 For basic background music (that isn’t meant to change from room-to-room), we could just create a separate game object, add an Audio Source component to it, then drop in a background music clip and toggle Loop.
 
-To add voice-over narration, we could add the following line to the State.cs script (which is the Scriptable Object):
+To add voice-over narration, we could add the following line to the State.cs ScriptableObject:
 
 	public AudioClip voiceNarration;
 
-Then in the Inspector, for every room, we can just drop in a voice clip in the exposed Voice Narration field.
+Then in the Inspector, for every room, we could just drop in a voice clip in the exposed Voice Narration field.
 
 Then, to enable it to play, we could add the following lines of code to the top of AdventureGame.cs (the same script that contains the previously discussed for loop):
 
