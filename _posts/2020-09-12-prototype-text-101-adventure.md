@@ -35,7 +35,7 @@ It’s all thanks to ScriptableObjects. This was the first time I have used them
 
 > Just like MonoBehaviours, ScriptableObjects derive from the base Unity object but, unlike MonoBehaviours, you can not attach a ScriptableObject to a GameObject. Instead, you need to save them as Assets in your Project. 
 
-There is only one type of ScriptableObject in this prototype. It contains a text (string) field (which stores the room description) and an array of choices to proceed. Each choice leads to another room, which is its own asset deriving from the ScriptableObject. 
+There is only one type of ScriptableObject in this prototype (State.cs). It contains a text (string) field (which stores the room description) and an array of choices to proceed. Each choice loads another room, which is its own asset deriving from the State.cs ScriptableObject. 
 
 ScriptableObjects make it easy for someone to create new rooms, with new text descriptions and choices, without having to touch the underlying code (since the code doesn’t change, no matter which room you’re in).
 
