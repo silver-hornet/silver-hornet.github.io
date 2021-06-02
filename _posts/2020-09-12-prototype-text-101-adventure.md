@@ -27,7 +27,7 @@ As a kid, I remember getting my hands on a [Choose Your Own Adventure](https://e
 
 This is a very lean prototype with no actual story. It only contains 60 lines of code. Even if the prototype contained more rooms, and more choices per room, it would still only contain 60 lines of code. How is that possible?
 
-It’s all thanks to Scriptable Objects. This was the first time I have used them. Scriptable Objects are a special class of their own, and are useful for storing data such as the rooms in this game. From Unity’s documentation:
+It’s all thanks to ScriptableObjects. This was the first time I have used them. ScriptableObjects are a special class of their own, and are useful for storing data such as the rooms in this game. From Unity’s documentation:
 
 > A ScriptableObject is a data container that you can use to save large amounts of data, independent of class instances. One of the main use cases for ScriptableObjects is to reduce your Project’s memory usage by avoiding copies of values. This is useful if your Project has a Prefab that stores unchanging data in attached MonoBehaviour scripts.
 
@@ -35,7 +35,9 @@ It’s all thanks to Scriptable Objects. This was the first time I have used the
 
 > Just like MonoBehaviours, ScriptableObjects derive from the base Unity object but, unlike MonoBehaviours, you can not attach a ScriptableObject to a GameObject. Instead, you need to save them as Assets in your Project. 
 
-There is only one type of Scriptable Object in this prototype. It contains a text (string) field, and an array of choices to proceed. Each of the choices has its own instance of this Scriptable Object template. Scriptable Objects make it easy for someone to create new rooms, with new text and choices, without having to touch the underlying code (since the code doesn’t change, no matter which room you’re in).
+There is only one type of ScriptableObject in this prototype. It contains a text (string) field (which stores the room description) and an array of choices to proceed. Each choice leads to another room, which is its own asset deriving from the ScriptableObject. 
+
+ScriptableObjects make it easy for someone to create new rooms, with new text descriptions and choices, without having to touch the underlying code (since the code doesn’t change, no matter which room you’re in).
 
 I like the simple way the prototype checks for keyboard input during the Update loop:
 
