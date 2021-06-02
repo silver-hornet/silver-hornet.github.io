@@ -25,7 +25,9 @@ View my GitHub repo [here](https://github.com/silver-hornet/gamedevtv-text101).
 ## What did I like about building this prototype?
 As a kid, I remember getting my hands on a [Choose Your Own Adventure](https://en.wikipedia.org/wiki/Choose_Your_Own_Adventure)-type book. It was cool to choose the direction of the narrative. This prototype replicates that kind of experience.
 
-This is a very lean prototype with no actual story. It only contains 60 lines of code. Even if the prototype contained more rooms, and more choices per room, it would still only contain 60 lines of code. How is that possible?
+This is a very lean prototype with no actual story. It only contains 60 lines of code. Even if the prototype contained more rooms, and more choices per room, it would still only contain 60 lines of code.
+
+How is that possible?
 
 It’s all thanks to ScriptableObjects. This was the first time I have used them. ScriptableObjects are a special class of their own, and are useful for storing data such as the rooms in this game. From Unity’s documentation:
 
@@ -35,7 +37,7 @@ It’s all thanks to ScriptableObjects. This was the first time I have used them
 
 > Just like MonoBehaviours, ScriptableObjects derive from the base Unity object but, unlike MonoBehaviours, you can not attach a ScriptableObject to a GameObject. Instead, you need to save them as Assets in your Project. 
 
-There is only one type of ScriptableObject in this prototype (State.cs). It contains a text (string) field (which stores the room description) and an array of choices to proceed. Each choice loads another room, which is its own asset deriving from the State.cs ScriptableObject. 
+There is only one type of `ScriptableObject` in this prototype (State.cs). It contains a text (string) field (which stores the room description) and an array of choices to proceed. Each choice loads another room, which is its own asset deriving from the State.cs ScriptableObject. 
 
 ScriptableObjects make it easy for someone to create new rooms, with new text descriptions and choices, without having to touch the underlying code (since the code doesn’t change, no matter which room you’re in).
 
@@ -50,7 +52,9 @@ I like the simple way the prototype checks for keyboard input during the Update 
             }
         }
 
-Every frame, this for loop cycles through from 0 to the number corresponding with the length of `nextStates` array (each room has a serialized array containing all the different rooms the player can visit from there). For example, if the player hits 1 on their keyboard, that means they want to select option 1 in the room they’re in. Since all arrays start from 0, the room corresponding with option 1 will actually have an index of 0. So at some point during the for loop, when the index cycles back to 0, the player’s input of 1 will be evaluated as true in the if statement. Why? Because the `KeyCode` function will look for `Alpha1 + index`, which in this case will equal the number of the key the player pressed (1). Once the if statement is true, it will run the line of code loading the room that is positioned at 0 in the index. If the player actually hit 2 on their keyboard, this would load the room at position 1 in the array (since an array starts at 0, position 1 is the second position, which corresponds to the player’s choice of 2).
+Every frame, this for loop cycles through from 0 to the number corresponding with the length of `nextStates` array (each room has a serialized array containing all the different rooms the player can visit from there). For example, if the player hits 1 on their keyboard, that means they want to select choice 1 in the room they’re in. Since all arrays start from 0, the room corresponding with choice 1 will actually have an index of 0. So at some point during the for loop, when the index cycles back to 0, the player’s input of 1 will be evaluated as true in the if statement.
+
+Why? Because the `KeyCode` function will look for `Alpha1 + index`, which in this case will equal the number of the key the player pressed (1). Once the if statement is true, it will run the line of code loading the room that is positioned at 0 in the index. If the player actually hit 2 on their keyboard, this would load the room at position 1 in the array (since an array starts at 0, position 1 is the second position, which corresponds to the player’s choice of 2).
 
 ## What could have been improved?
 When creating a Canvas in Unity, an EventSystem is automatically created. An EventSystem is a separate game object  designed to handle input associated with interactive UI (eg. buttons). In this prototype, we’re not using that type of functionality, so the EventSystem can be deleted with no impact to the game.
