@@ -22,9 +22,9 @@ View my GitHub repo [here](https://github.com/silver-hornet/gamedevtv-number-wiz
 - Menu screen
 - Game screen
 - Win screen
-- Guess higher button
-- Guess lower button
-- Guess correct button
+- Guess Higher button
+- Guess Lower button
+- Guess Correct button
 - Restart game
 - Quit game
 
