@@ -37,9 +37,9 @@ Although this was a very short and simple prototype, access modifiers are used c
 
 I like how nicely structured and readable the code is. And its underlying logic is easy to grasp. When the game starts, the AI randomly guesses an integer between 1 and 1000. This guess is converted to a string and displayed in the UI.
 
-If we click the Higher button, the AI sets its new minimum guess to the previous guess +1, then guesses a random number between that and 1000 (for its first guess), or the previous maximum guess -1.
+If we click the Higher button, the AI sets its new minimum guess to the previous guess +1, then guesses a random number either between that and 1000 (for its first guess) or the previous maximum guess -1.
 
-If we click the Lower button, the AI sets its new maximum guess to the previous guess -1, then guesses a random number between that and 1 (if it’s the AI’s first guess), or the previous minimum guess +1.
+If we click the Lower button, the AI sets its new maximum guess to the previous guess -1, then guesses a random number either between that and 1 (if it’s the AI’s first guess) or the previous minimum guess +1.
 
 
 ## What could have been improved?
@@ -53,7 +53,7 @@ The underlying cause of this is that the min and max variables associated with m
 
 The AI should instead check against some other value that doesn’t change. We know the range should always be between 1 and 1000, inclusive. So the min and max values should check against that. They shouldn’t be free to change themselves to whatever they would like.
 
-So to solve this first issue, we could serialize two new variables (gameMin and gameMax) at the top of the script, then set their values to 1 and 1000 in the Inspector. Then back in the script we can use `Mathf.Clamp` to clamp all guesses to between the gameMin and gameMax values. The gameMin and gameMax 
+So to solve this first issue, we could serialize two new variables (gameMin and gameMax) at the top of the script, then set their values to 1 and 1000 in the Inspector. Then back in the script we can use `Mathf.Clamp` to clamp all guesses to between the gameMin and gameMax values.
 
     void Start()
     {
