@@ -77,7 +77,7 @@ The above still isn’t a perfect solution though. While it makes it impossible 
 
 We could probably add some more complicated logic to help fix these edge cases, but in this situation I’m thinking it might just be better to give the player feedback that they have messed up. It’s not the AI’s fault the player “forgot” their number!
 
-So I would add a couple of if statements to the following methods in NumberWizard.css:
+So I would add a couple of if statements to the following methods in NumberWizard.cs:
 
 	public void OnPressHigher()
     {
