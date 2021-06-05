@@ -77,7 +77,7 @@ The above still isn’t a perfect solution though. While it makes it impossible 
 
 We could probably add some more complicated logic to help fix these edge cases, but in this situation I’m thinking it might just be better to give the player feedback that they have messed up. It’s not the AI’s fault the player “forgot” their number!
 
-So I would add a couple of if statements to the following methods:
+So I would add a couple of if statements to the following methods in NumberWizard.css:
 
 	public void OnPressHigher()
     {
@@ -109,6 +109,7 @@ And that seems to fix the problem. Like all things coding, there are probably ma
 
 To improve it further (and to prevent some new bugs), I could also add a reference to the UI buttons in the code above, and then disable the Higher and Lower buttons once the guess equals gameMin or gameMax. This could be done with something like `higherButton.SetActive(false)` (assuming a game object reference to higherButton exists in the script).
 
+Lastly, a nice little addition to this prototype would be a click sound every time the player clicks any of the buttons. This could easily be accomplished by adding an AudioSource, adding an AudioClip to it, then using `AudioSource.Play()` in the if statements further above.
 
 ## Unity and C# Documentation
 - [Access Modifiers](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers)
