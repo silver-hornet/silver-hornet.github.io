@@ -7,4 +7,3 @@
 #
 layout: home
 ---
-![Welcome!]({{site.url}}/foxs-tale.gif)
