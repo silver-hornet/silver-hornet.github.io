@@ -8,9 +8,9 @@ My game dev journey started off with a realization: games have been a strong par
 
 There are many platforms, titles, and genres I’ve enjoyed – and continue to enjoy – playing. I enjoy learning about the history of games, as well as learning about what it takes to make them.
 
-While there have been periods of my life where other things have taken over for a while (university, jobs, immigration, life stuff), I always end up gravitating back to games. Even within my current (non-game industry) career, I always find ways of incorporating the many positive social and problem-solving aspects of games into the workplace, whether that’s through team building board game sessions, or gamification to increase employee engagement.
+While there have been periods of my life where other things have taken over for a while (university, jobs, immigration, life stuff), I always gravitate back to games. Even within my current (non-game industry) career, I like to find ways of incorporating the many positive social and problem-solving aspects of games into the workplace, whether that’s through team building board game sessions, or gamification to increase employee engagement.
 
-During the COVID-19 pandemic, I’ve been reflecting more on the things I really want to do in my life. And being involved in making games keeps bubbling to the top. So it’s finally time to do something about that.
+During the COVID-19 pandemic, I’ve been reflecting more on the things I really want to do in life. And making games keeps bubbling to the top. So it’s finally time to do something about that.
 
 ## How?
 
