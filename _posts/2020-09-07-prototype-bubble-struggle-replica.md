@@ -31,7 +31,7 @@ View my GitHub repo [here](https://github.com/silver-hornet/brackeys-bubble-stru
 - Game resets on player death
 
 ## What did I like about building this prototype?
-One of my favourite games growing up was [Pang](https://en.wikipedia.org/wiki/Buster_Bros). My brother and I used to play it often on his Amiga 500. The gameplay loop was very satisfying, and the music and artwork was charming and memorable. So it was a joy to prototype something inspired by that.
+One of my favourite classic retro games is [Pang](https://en.wikipedia.org/wiki/Buster_Bros). The gameplay loop was very satisfying, and the music and artwork was charming and memorable. So it was a joy to prototype something inspired by that.
 
 Implementing ball splitting in this prototype was interesting. It involved instantiating two smaller versions of the ball one vector to the left and one vector to the right as soon as the player’s chain collides with the initial ball, and then immediately adding a `ForceMode2D.Impulse` force to the two new balls.
 
