@@ -30,7 +30,7 @@ View my GitHub repo [here](https://github.com/silver-hornet/brackeys-frogger-rep
 - Score
 
 ## What did I like about building this prototype?
-I remember first playing a port of [Frogger](https://en.wikipedia.org/wiki/Frogger) on my brother’s Amiga 500 when I was a kid. It was a fun, although frustrating, game. But there was a lot of satisfaction when I made the frog reach the top of the screen without being run over by a truck, or drowned because of those damn, unreliable turtles. For a game that was originally released in arcades in 1981, it’s amazing how well the core gameplay has withstood the test of time. And that’s only further proven with the recent success of [Crossy Road (2014)](https://en.wikipedia.org/wiki/Crossy_Road), an endless runner inspired by Frogger.
+I remember first playing a port of [Frogger](https://en.wikipedia.org/wiki/Frogger) on a console when I was a kid. It was a fun, although frustrating, game. But there was a lot of satisfaction when I made the frog reach the top of the screen without being run over by a truck, or drowned because of those damn, unreliable turtles. For a game that was originally released in arcades in 1981, it’s amazing how well the core gameplay has withstood the test of time. And that’s only further proven with the recent success of [Crossy Road (2014)](https://en.wikipedia.org/wiki/Crossy_Road), an endless runner inspired by Frogger.
 
 Even though this prototype is a heavily stripped back version of Frogger, the core gameplay is here, and it feels satisfying to play. Get to the top of the screen to get 100 points. The scene then resets, keeping your score, until you eventually get run over and the score resets.
 
