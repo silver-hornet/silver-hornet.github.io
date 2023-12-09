@@ -23,20 +23,20 @@ View my GitHub repo [here](https://github.com/silver-hornet/brackeys-cube-runner
 ## Planning
 Here’s a high-level breakdown of the main features of this game:
 
-|**TO DO**|**DOING**|**DONE**|
-|Create straight track|
-|Create player|
-|Make player move|
-|Make camera follow player|
-|Create obstacles|
-|Make player die|
-|Create finish line|
-|Display Score|
-|Create level 1|
-|Create level 2|
-|Display menu screen|
-|Display credits screen|
-|Deploy to Unity Play|
+## Features
+- Create straight track
+- Create player
+- Make player move
+- Make camera follow player
+- Create obstacles
+- Make player die
+- Create finish line
+- Display Score
+- Create level 1
+- Create level 2
+- Display menu screen
+- Display credits screen
+- Deploy to Unity Play
 
 ## How It Works
 The game architecture consists of:
