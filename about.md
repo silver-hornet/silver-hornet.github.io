@@ -18,5 +18,3 @@ By setting two goals:
 The 40 prototypes can be built while following along with tutorials. After my first 12 months, I might consider building a polished version of one of these prototypes (with more levels) or make an attempt at one of my own 150+ game ideas I’ve come up with over the years.
 
 I started this initial 12-month daily game dev journey on June 29, 2020. This website will document my progress; showcasing my prototypes, and sharing some of the things I have learned along the way.
-
-940343
